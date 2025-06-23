@@ -1,0 +1,29 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "age-calculator that uses npm to manage libraries",
+  "scripts": {
+    "test": "npm install js-datepicker",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovsdo/Age-Calculator.git"
+  },
+  "keywords": [
+    "agecalc"
+  ],
+  "author": "JoãoVictor",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/joaovsdo/Age-Calculator/issues"
+  },
+  "homepage": "https://github.com/joaovsdo/Age-Calculator#readme",
+  "dependencies": {
+    "js-datepicker": "^5.18.4",
+    "luxon": "^3.6.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}

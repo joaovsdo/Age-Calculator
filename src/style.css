@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insert-date, .date-picker-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-picker-container {
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.insert-date {
+    width: 50vw;
+    max-width: 600px;
+    gap: 0.5rem;
+}
+
+.insert-date > input, 
+.insert-date > button {
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.insert-date > input {
+    padding-left: 1rem;
+}
+
+.insert-date > button {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.insert-date > label {
+    text-align: left;
+}
+
+.date-picker.invalid {
+    border: none;
+    border: 2px solid red;
+}
